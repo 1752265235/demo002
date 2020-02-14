@@ -1,0 +1,106 @@
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278
+$ ls
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278
+$ pwd
+/d/work/gitrepo/278
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278
+$ git init
+Initialized empty Git repository in D:/work/gitrepo/278/.git/
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ ls -a
+./  ../  .git/
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ touch 111.txt
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        111.txt
+        222.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git add 111.txt
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git add 111.txt
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git add *.txt
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   111.txt
+        new file:   222.txt
+
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git commit -m 首次提交
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lenovo@▒▒▒ľ▒.(none)')
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ ^C
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git config --global user.email "1752265235@qq.com"
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ gitconfig --global user.email "1752265235@qq.com"
+bash: gitconfig: command not found
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git config --global user.email "1752265235@qq.com"
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git config --global user.email "YANWENJING"
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git commit -m 首次提交
+[master (root-commit) 6bcf550] 首次提交
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 111.txt
+ create mode 100644 222.txt
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ notepad++ 111.txt
+bash: notepad++: command not found
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$ notepad++ 111.txt
+bash: notepad++: command not found
+
+lenovo@▒▒▒ľ▒ MINGW64 /d/work/gitrepo/278 (master)
+$
